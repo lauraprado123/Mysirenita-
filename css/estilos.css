@@ -23,6 +23,7 @@ a.titulo-inicio{
     /*align-items: center;
     align-content: center;*/
     height: 100px;
+    padding-top: 20px;
     
 }
 
@@ -35,9 +36,15 @@ a.titulo-inicio{
 }
 
 .a-index:hover{
-    background-color: rgb(89, 15, 158);
+    color: rgb(223, 203, 241);
+    font-size: 25px;
+    transition: 1s;
+    
 }
 
+.a-index:hover{
+    transform: scale(2);
+}
 nav{
     background-color: rgb(142, 104, 175);
 }
@@ -114,10 +121,22 @@ nav{
 
 @media only screen and (max-width:600px){
     
-
+    .a-index{
+        font-size: 16px;
+    }
+    .a-index:hover{
+        color: rgb(223, 203, 241);
+        font-size: 15px;
+        transition: 1s;
+        
+    }
+    .nos-parrafo {
+        
+        justify-content: center;
+    }
 .grilla-general{
     grid-template-columns: 100%;
-    grid-template-rows: 80px 90px 700px 150px;
+    grid-template-rows: 80px 90px 900px 150px;
     grid-template-areas: "header"
                         "nav"
                         "main"
@@ -172,6 +191,25 @@ nav{
 
 .main-productos img{
     width: 100%;
+}
+.como-comprar h2{
+    margin-top: 20px;
+}
+.como-comprar{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+/* contacto */
+.comentario textarea {
+    
+    margin-left: 5px !important;
+    width: 90%;
+}
+.contacto-form h2{
+    align-content: center;
+    justify-content: center;
 }
 } 
 
