@@ -103,7 +103,7 @@ nav{
                             "main"
                             "footer";
                         } */
-      
+
 .main-nosotros{
     grid-template-columns: 45% 45%;
     grid-template-rows: 90%;
@@ -218,15 +218,34 @@ nav{
     align-content: center;
     justify-content: center;
 }
- 
+
+
 
 
 /*Main contactos*/
+.contacto-form{
+    padding-top: 20px;
+}
 
-.formulario{
+
+.btn.btn-primary{
+    margin-right:auto;
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.contacto-form{
+    background-color: rgb(179, 157, 207);
+}
+
+
+
+/*.formulario{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    /* justify-content: space-between; 
     justify-content: space-around;
     margin-bottom: 10%;
 }
@@ -239,7 +258,7 @@ nav{
     margin-top: 20px;;
     margin-bottom: 20px;
 }
-/* .formulario .input #Apellido */
+/* .formulario .input #Apellido 
 .formulario .input label{
     margin-left: 20px;
     margin-right: 60px;
@@ -256,7 +275,7 @@ nav{
 main form .formulario #enviar{
     margin-left: 10%;
     width: 100px;
-}
+}*/
 
 
 
@@ -271,6 +290,7 @@ footer{
     color: white;
     
 }
+
 
 /* navbar */
 .navbar-light .navbar-nav .nav-link {
@@ -291,4 +311,12 @@ footer{
     align-items: center;
     background: rgb(142, 104, 175);
     width: 100%;
+}
+.fa-facebook-square:before, .fa-square-facebook:before {
+    content: "\f082";
+    font-size: 25px;
+}
+.fa-instagram:before {
+    content: "\f16d";
+    font-size: 25px;
 }
