@@ -14,18 +14,16 @@ a.titulo-inicio{
 }
 
 /*index*/
-.ul-index{
+/* .ul-index{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     justify-items: center;
-    /*align-items: center;
-    align-content: center;*/
     height: 100px;
     padding-top: 20px;
     
-}
+} */
 
 .a-index{
     text-decoration: none;
@@ -65,9 +63,9 @@ nav{
     background-color: rgb(179, 157, 207);
     
 }
-.grilla-general{
+/* .grilla-general{
     display: grid;
-}
+} */
 /* .grilla-general-producto{
     display: grid;
 } */
@@ -102,7 +100,7 @@ nav{
                             "nav"
                             "main"
                             "footer";
-                        } */
+    } */
 
 .main-nosotros{
     grid-template-columns: 45% 45%;
@@ -123,8 +121,6 @@ nav{
     padding-bottom: 20px;
     font-size: 15px;
 }
-
-
 }
 
 
@@ -152,14 +148,7 @@ nav{
                         "main"
                         "footer";
                     }
-/* .grilla-general-producto{
-    grid-template-columns: 100%;
-    grid-template-rows: 80px 90px 2000px 150px;
-    grid-template-areas: "header"
-                        "nav"
-                        "main"
-                        "footer";
-                    } */
+} 
 
 .main-nosotros{
     grid-template-columns: 90%;
@@ -183,22 +172,9 @@ nav{
     flex-direction: column;
     flex-wrap: wrap;
 }
-/*main de productos*/
 
-/* .main-productos{
-    width: 100%;
-    background-color: rgb(179, 157, 207);
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100px 100px 100px 100px 100px
-    /* height: 1000px; */
-} */
+/*main como comprar*/
 
-/* .main-productos .imag-uno{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
-} */
 .como-comprar h2{
     margin-top: 20px;
 }
@@ -220,8 +196,6 @@ nav{
 }
 
 
-
-
 /*Main contactos*/
 .contacto-form{
     padding-top: 20px;
@@ -239,45 +213,6 @@ nav{
 .contacto-form{
     background-color: rgb(179, 157, 207);
 }
-
-
-
-/*.formulario{
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; 
-    justify-content: space-around;
-    margin-bottom: 10%;
-}
-.formulario .input {
-    width: 50%;
-}
-.formulario .input input{
-    width: 50%;
-    padding: 5px;
-    margin-top: 20px;;
-    margin-bottom: 20px;
-}
-/* .formulario .input #Apellido 
-.formulario .input label{
-    margin-left: 20px;
-    margin-right: 60px;
-}
-.formulario .comentario{
-    width: 100%;
-}
-.comentario textarea{
-    margin-left: 130px;
-}
-.comentario label{
-    margin-left: 23px;
-}
-main form .formulario #enviar{
-    margin-left: 10%;
-    width: 100px;
-}*/
-
-
 
 footer{
     display: flex;
@@ -312,6 +247,9 @@ footer{
     background: rgb(142, 104, 175);
     width: 100%;
 }
+
+/*footer redes sociales*/
+
 .fa-facebook-square:before, .fa-square-facebook:before {
     content: "\f082";
     font-size: 25px;
