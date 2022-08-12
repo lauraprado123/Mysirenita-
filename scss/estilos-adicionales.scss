@@ -1,5 +1,4 @@
-//variable
-$color_fondo: rgb(142, 104, 175);
+@import 'variables.scss';
 
 /* navbar */
 .navbar-light {
@@ -49,11 +48,10 @@ a.titulo-inicio {
 
 .a-index:hover{
     color: rgb(223, 203, 241);
-    font-size: 25px;
+    font-size: 24px;
     transition: 1s;
-    
 }
-a-index:hover{
+.a-index:hover{
     transform: scale(2);
 }
 nav{

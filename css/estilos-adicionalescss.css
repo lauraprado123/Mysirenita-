@@ -34,10 +34,10 @@ a.titulo-inicio {
 
 .a-index:hover {
   color: #dfcbf1;
-  font-size: 25px;
+  font-size: 24px;
   transition: 1s; }
 
-a-index:hover {
+.a-index:hover {
   transform: scale(2); }
 
 nav {
