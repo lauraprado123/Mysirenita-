@@ -66,12 +66,15 @@ nav{
     height: 100%;
     
 }
-.footer{
+.footer-adicional{
     display: flex;
     grid-area: footer;
     justify-content: space-evenly;
     align-items:center;
     border: 2px;
+}
+.footer{
+    @extend .footer-adicional;
     background-color: rgb(66, 47, 109);
     height: 100px;
     color: white;

@@ -14,16 +14,7 @@ a.titulo-inicio{
 }
 
 /*index*/
-/* .ul-index{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    justify-items: center;
-    height: 100px;
-    padding-top: 20px;
-    
-} */
+
 
 .a-index{
     text-decoration: none;
@@ -63,15 +54,7 @@ nav{
     background-color: rgb(179, 157, 207);
     
 }
-/* .grilla-general{
-    display: grid;
-} */
-/* .grilla-general-producto{
-    display: grid;
-} */
-/* .main-productos{
-    display: grid;
-} */
+
 
 .grilla-general-producto img{
 
@@ -92,15 +75,6 @@ nav{
     
 
                     }
-/* .grilla-general-producto{ 
-    width: 100%;
-        grid-template-columns: 100%;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas: "header"
-                            "nav"
-                            "main"
-                            "footer";
-    } */
 
 .main-nosotros{
     grid-template-columns: 45% 45%;
@@ -250,11 +224,11 @@ footer{
 
 /*footer redes sociales*/
 
-.fa-facebook-square:before, .fa-square-facebook:before {
+/* .fa-facebook-square:before, .fa-square-facebook:before {
     content: "\f082";
     font-size: 25px;
 }
 .fa-instagram:before {
     content: "\f16d";
     font-size: 25px;
-}
+} */
